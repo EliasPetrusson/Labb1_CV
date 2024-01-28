@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  background-color: #1d2731;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.blå {
+  background-color: #083c5d;
+  padding: px;
+}
+button {
+  padding: 10px;
+  background-color: #1d2731;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #083c5d;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  padding: 50px; 
+  background-color: #083c5d;
+}
+
+.profile-section img {
+  width: 150px;
+  border-radius: 40%;
+  margin-right: 20px;
+  padding:10px;
+  
+}
+.Skills {
+  background-color: #1d2731;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-category {
+  text-align: left;
+}
+
+.Skills h3 {
+  margin-top: 10px;
+}
+
+.Skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills li {
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  display: inline-block;
+  width: 100px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+main {
+  text-align: center;
+  color: #fff;
+}
+
+.grå {
+  background-color: #aaaaaa;
+  padding: 5px;
+  font-style: oblique;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.grå h4 {
+  font-style: italic;
+  text-align: center;
+}
+
+.grå h3 {
+  text-align: center;
+}
+
+.grå li {
+  text-align:center;
+  margin-left: 30px;
+}
+.vit {
+  padding:20px;
+  color: black;
+  
+}
+.summary{
+  padding-left:10px;
+  text-align:left;
+}
+
+
+footer {
+  background-color: #1d2731;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
